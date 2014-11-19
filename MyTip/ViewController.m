@@ -17,11 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString* str = @"This is MyTip!";
+    NSLog(@"%@",str);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    NSString* str = @"Memory Warning";
+    NSLog(@"%@",str);
+    
 }
 
 @end
